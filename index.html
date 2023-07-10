@@ -1,46 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
-	<title>Crunchy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+    <title>Crunchy</title>
 </head>
 <body>
-	<header>
+    <header>
         <div class="contenedor">
             <h2 class="logotipo">Anime</h2>
             <nav>
-                <a href="#"class="activo">Popular</a>
+                <a href="#" class="activo">Popular</a>
                 <a href="#">New</a>
-                <a href="#">Alphabetical</a>
-                <a href="#">Simulcast Season</a>
-                <a href="#">Release Calendar</a>
-                <a href="#">Music Videos & Concerts</a>
                 <a href="#">Genres</a>
             </nav>
         </div>
     </header>
     <main>
         <div class="anime-principal">
-			<div class="contenedor">
-            <h3 class="titulo">Vinland Saga</h3>
-            <p class="descripcion">
-                Around the end of the millennium, Viking, the mightiest but atrocious tribe, had been out breaking everywhere. Thorfinn, the son of the greatest warrior, lived his childhood in the battlefield. He was seeking the land of reverie called Vinland. This is the story of a true warrior in an age of turmoil.
+            <div class="contenedor">
+                <h3 class="titulo">Vinland Saga</h3>
+                <p class="descripcion">
+                    Around the end of the millennium, Viking, the mightiest but atrocious tribe, had been out breaking everywhere. Thorfinn, the son of the greatest warrior, lived his childhood in the battlefield. He was seeking the land of reverie called Vinland. This is the story of a true warrior in an age of turmoil.
+                </p>
+                <button role="button" class="boton"><i class="fas fa-play"></i>Play</button>
+                <button role="button" class="boton"><i class="fas fa-info-circle"></i>More information</button>
+            </div>
+        </div>
+        <div class="animes-recomendados">
+            <div class="contenedor">
+                <div class="contenedor-titulo-controles">
+                    <h3>Recommended Animes</h3>
+                    <div class="indicadores"></div>
+                </div>
 
-            </p>
-           <button role="button" class="boton"><i class="fas fa-play"></i>Play</button>
-				<button role="button" class="boton"><i class="fas fa-info-circle"></i>
-                    More information</button>
-        </div>
-        
-        <div class="animes-recomendados contenedor">
-            <div class="contenedor-titulo-controles">
-                <h3>Animes Recomendados</h3>
-                <div class="indicadores"></div>
-        </div>
-        
+                <div class="contenedor-principal">
+                    <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="pelicula">
+							<a href="#"><img src="img/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/4.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/5.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/6.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/7.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/4.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/5.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/6.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/7.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/1.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/2.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/3.png" alt=""></a>
+						</div>
+						<div class="pelicula">
+							<a href="#"><img src="img/4.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
     </main>
 	
 	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
